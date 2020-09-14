@@ -1,0 +1,76 @@
+.title-style{
+    margin-bottom: 50px;
+}
+
+.title{
+    background-color: #071eb3;
+    color: white;
+}
+
+.totals{
+    color: #071eb3;
+}
+
+
+.names{
+    color: #a5a5a5;
+    font-size: small;
+}
+
+.sizeName{
+    padding-left: 1rem;
+}
+
+.cont-marg{
+    margin-top: 13%;
+
+}
+
+.home{
+    background-color:white;
+}
+
+.spanNumber{
+    font-size: 2rem
+}
+
+.spanDescription{
+    font-size: small;
+    margin-top: 5%;
+}
+
+.testimon{
+    margin-left: 1rem;
+}
+
+.loading {
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.arrow-link{
+    background-color: #071eb3;
+    color: white;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.pageContent{
+    padding-top: 1rem;
+}
+
+.position{
+    position: absolute;
+    right: 0;
+}
+
+.carousel-inner-data{
+        width: 100%;
+        height: 100%;
+      
+  }
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+left: 0;
+}
