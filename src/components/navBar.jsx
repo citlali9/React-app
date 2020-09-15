@@ -15,7 +15,7 @@ const NavBar = ({ data = data.data, fetchData }) => {
    }, []);
 
    return data.loading ? (
-    <Loading/>
+    <h3>loading</h3>
    ) : data.error ? (
     <Error error={ data.error }/> 
    ) : (

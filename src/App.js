@@ -1,13 +1,13 @@
 import React from 'react';
-import NavBar from './components/navBar'
-import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NavBar from './components/navBar';
 import Home from './components/home';
 import Configuration from './components/configuration';
-import  './components/home.css';
-import { Provider } from 'react-redux';
 import store from './redux/store';
 import { AppContextProvider } from './components/context';
+import './App.css';
+import  './components/home.css';
 
 function App() {
   return (

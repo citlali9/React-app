@@ -1,6 +1,4 @@
 import { FETCH_DATA_REQUEST, FETCH_DATA_SUCCESS, FETCH_DATA_FAILURE } from '../types';
-const { act } = require("react-dom/test-utils")
-
 
 const initialState=  {
   loading: false,

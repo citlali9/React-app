@@ -1,8 +1,7 @@
 FROM node:10.19.0-slim
 
 # Create app src/ directory
-WORKDIR /usr/src/app/app-citlali
-
+WORKDIR /usr/src/app/react-app
 # Copy package.json and install prod dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
